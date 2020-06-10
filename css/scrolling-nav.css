@@ -5,8 +5,13 @@
  */
 
 /* HEADER SECTION */
-#buthow { color: whitesmoke !important;}
-#buthow:hover { color: black !important;}
+.buthow { color: whitesmoke !important; text-decoration:none !important;}
+.buthow:hover { color: black !important;}
+
+.top-logo {
+  max-height: 10vh;
+  max-width: 30vw;
+}
 
 section {
   padding: 100px 0;
