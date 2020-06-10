@@ -30,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+            <a class="nav-link js-scroll-trigger" href="#about">About Us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#services">Services</a>
@@ -43,34 +43,47 @@
     </div>
   </nav>
 
-  <header class="bg-primary text-white">
-    <div class="container text-center">
-      <h1>Sell More, Faster.</h1>
-      <p class="lead">NeverCoast Digital Marketing is concerned with one thing only: finding you the highest profit at the lowest cost.
-        We find the best platforms to advertise your company, enabling you to outperform your competition.
-      </p>
-      <p><a href="#">Find out How</a></p>
+  <header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="NeverCoastRoll.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-3">Sell More, Faster.</h1>
+          <p class="lead mb-0">NeverCoast Digital Marketing is concerned with one thing only: finding you the highest profit at the lowest cost.
+            We find the best platforms to advertise your company, enabling you to outperform your competition.</p>
+            <button class="btn btn-outline-light mt-3"><a class="js-scroll-trigger" href="#about" style="text-decoration:none; color: royalblue;">Find Out How</a></button>
+        </div>
+      </div>
     </div>
   </header>
 
-  <section id="features">
+  <section id="about" class="bg-primary text-light">
     <div class="container">
+      <!-- Introduction to About Us-->
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h1>About this page</h1>
+        <div class="col-lg-9 mx-auto">
+          <h1 class="text-center">About Us</h1>
           <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
-          <ul>
-            <li>Clickable nav links that smooth scroll to page sections</li>
-            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mx-auto">
+          <p>Something about what it is we do</p>
+        </div>
+        <div class="col-md-4 mx-auto">
+          <p>Experts in our field</p>
+        </div>
+        <div class="col-md-4 mx-auto">
+          <p>On to the next one</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="hook" class="bg-primary text-white">
+  <section id="hook" class="bg-light">
     <div class="container">
       <div class="row">
         <div class="col-md-5 mx-auto">
@@ -117,7 +130,17 @@
           </div>
           <div class="col-md-4 mx-auto">
             <h2>Digital Marketing Campaigns</h2>
-            <p>Insert list here</p>
+            <p>Leverage multiple channels to increase conversion and turn casual browsers into paying customers.
+              <ul>
+                <li>SEO Services</li>
+                <li>Online and Pay-Per-Click Advertising</li>
+                <li>Email Marketing</li>
+                <li>Social Media Marketing</li>
+                <li>E-Commerce Solutions</li>
+                <li>Web Development and Digital Content</li>
+              </ul>
+              <a>Learn How</a>
+            </p>
           </div>
         </div>
         <!-- Analytics Section -->
@@ -168,7 +191,35 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <!-- Row for important footer links -->
+      <div class="row">
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4 text-white">
+          <ul>
+            <li>Resources</li>
+            <li>Book a Speaker</li>
+            <li>Blog Posts</li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <p>Nevercoast logo here</p>
+          <img src="" class="img-fluid">
+        </div>
+        <div class="col-md-4">
+          <p class="m-0 text-center text-white">Copyright &copy; NeverCoast 2020</p>
+        </div>
+        <div class="col-md-4">
+          <p class="text-center">Social media Icons here</p>
+        </div>
+      </div>
     </div>
     <!-- /.container -->
   </footer>
