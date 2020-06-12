@@ -4,13 +4,28 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
+/* GENERAL */
+.bg-secondary {
+  background-color: #bcbec0 !important;
+}
+
+
 /* HEADER SECTION */
 .buthow { color: whitesmoke !important; text-decoration:none !important;}
 .buthow:hover { color: black !important;}
 
 .top-logo {
-  max-height: 10vh;
+  max-height: 6vh;
   max-width: 30vw;
+  padding: 4px 0;
+}
+.intro-stat {
+  margin-top: 20vh; /*Height of the video section is 85vh */
+}
+
+#hook {
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 section {
@@ -84,10 +99,26 @@ header .overlay {
 /* -- END HEADER SECTION --*/
 
 /* -- ABOUT SECTION --*/
+#about {
+  padding-top: 70px;
+}
+
 .col-icon {
   max-width: 30%;
   max-height: 30%;
   margin:0 auto;
 }
 
+/* -- END ABOUT SECTION -- */
 
+/* -- FOOTER SECTION -- */
+.bottom-logo {
+  max-height: 20px;
+}
+
+footer li a {
+  color: whitesmoke;
+}
+footer li a:hover {
+  color: whitesmoke;
+}
