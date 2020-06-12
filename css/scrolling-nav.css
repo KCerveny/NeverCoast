@@ -8,7 +8,9 @@
 .bg-secondary {
   background-color: #bcbec0 !important;
 }
-
+.bg-hook {
+  background-color: gray;
+}
 
 /* HEADER SECTION */
 .buthow { color: whitesmoke !important; text-decoration:none !important;}
@@ -97,6 +99,15 @@ header .overlay {
   }
 }
 /* -- END HEADER SECTION --*/
+
+/* SERVICES SECTION */
+
+.services .row {
+  margin-top: 75px;
+}
+
+
+
 
 /* -- ABOUT SECTION --*/
 #about {
