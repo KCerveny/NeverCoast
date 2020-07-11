@@ -9,7 +9,7 @@
   background-color: #bcbec0 !important;
 }
 .bg-hook {
-  background-color: gray;
+  background-color: #424344;
 }
 
 /* HEADER SECTION */
@@ -35,7 +35,7 @@ section {
 }
 
 .row {
-  margin: 45px auto !important;
+  margin: 45px auto;
 }
 div.section-title{
   margin-bottom: 30px;
@@ -132,4 +132,8 @@ footer li a {
 }
 footer li a:hover {
   color: whitesmoke;
+}
+
+form .frow {
+  margin: 15px auto;
 }
